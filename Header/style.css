@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600;700&display=swap');
+
+/*font-family: 'Cormorant Garamond',serif;*/
+
+/*Formatacao do header*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond',serif;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    padding: 0 8%;
+    background: #57290B;
+    position: relative;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.header ul li:nth-child(1){
+    float: left;
+}
+
+.header ul li:nth-child(2) {
+    float: left;
+}
+
+.header ul li:nth-child(3) {
+    float: right;
+    margin-right: 150px;
+}
+
+.header li a{
+    text-decoration: underline #B2784A;
+    color: #E2C196;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: normal;
+    display: block;
+    padding: 10px 20px;
+    justify-content: space-between;
+    margin: 30px;
+
+    
+}
+
+.header li a: hover{
+     
+}
+
+.logo-area{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 42%;
+    top: 10%;
+    content: "";
+
+}
+
+.telefone-area i{
+    position: absolute;
+    right:15%;
+    top: 52%;
+    color: #B2784A;
+
+
+}
+
+.telefone-area p{
+    position: absolute;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    color: #E2C196;
+    font-size: 20px;
+    right: 7%;
+    top: 36%;
+}
+
+/*
+.telefone-area p{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    color: #E2C196;
+    font-size: 8px;
+}
+
