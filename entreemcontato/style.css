@@ -1,0 +1,358 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #ffffff;
+}
+.square {
+  position: absolute;
+  width: 438px;
+  height: 28px;
+  left: 102px;
+  top: 167px;
+  background: #FBC9A8;
+ }
+.topic-text{
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #1F0C00;
+  white-space: nowrap;
+}
+.topic-text{
+  position: absolute;
+  width: 406px;
+  height: 48px;
+  left: 118px;
+  top: 142px;
+  z-index: 1;
+}
+.container{
+  width: 1200px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.container .content .left-side{
+  width: 510px;
+  height: 711px;
+  top: 219px;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: right;
+  position: relative;
+  background: #8F542E;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.content .left-side .icons {
+  color : #EBDACC;
+}
+
+.content .left-side .textleft{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.phonedetails{ 
+  position: absolute;
+  top: 43px;
+  left: 40px;
+}
+
+.text-1{
+  position: absolute;
+  width: 120px;
+  height: 25px;
+  left: 73px;
+  top: 43px;
+}
+
+.text-2{
+  position: absolute;
+  width: 180px;
+  height: 25px;
+  left: 73px;
+  top: 86px;
+}
+
+.emaildetails{ 
+  position: absolute;
+  top: 86px;
+  left: 40px;
+}
+
+.text-3{
+  position: absolute;
+  width: 224px;
+  height: 72px;
+  left: 73px;
+  top: 129px;
+}
+
+.addressdetails{
+  position: absolute;
+  top: 129px;
+  left: 40px;
+}
+
+.text-4{
+  position: absolute;
+  width: 191px;
+  height: 25px;
+  left: 73px;
+  top: 250px;
+}
+
+.instagramdetails{
+  position: absolute;
+  top: 250px;
+  left: 40px;
+}
+
+.text-5{
+  position: absolute;
+  width: 181px;
+  height: 25px;
+  left: 73px;
+  top: 293px;
+}
+
+.facebookdetails{
+  position: absolute;
+  top: 293px;
+  left: 40px;
+}
+
+.content .left-side .img{
+  position: absolute;
+  width: 127px;
+  height: 162.03px;
+  left: 162px;
+  top: 461px;
+}
+
+.content .left-side .img2{
+  position: absolute;
+  width: 246px;
+  height: 39px;
+  left: 101px;
+  top: 632px;
+}
+
+.container .content .right-side{
+  position: absolute;
+  width: 690px;
+  height: 711px;
+  left: 630px;
+  top: 219px;
+  background: #F5F3ED;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.right-side textarea{
+  position: absolute;
+  width: 609px;
+  height: 220px;
+  left: 41px;
+  top: 349px;
+  background: #F5F5F5;
+  border: 1px solid #8F542E;
+  border-radius: 8px
+}
+
+.right-side .input-boxemail textarea{
+  position: absolute;
+  width: 609px;
+  height: 70px;
+  left: 41px;
+  top: 213px;
+  background: #F5F5F5;
+  border: 1px solid #8F542E;
+  border-radius: 8px;
+}
+
+.right-side .input-boxnome textarea{
+  position: absolute;
+  width: 609px;
+  height: 70px;
+  left: 41px;
+  top: 77px;
+  background: #F5F5F5;
+  border: 1px solid #8F542E;
+  border-radius: 8px;
+}
+
+.right-side .button [type="button"]{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 20px;
+  position: absolute;
+  width: 282px;
+  height: 57px;
+  left: 41px;
+  top: 601px;
+}
+
+.right-side .button input[type="button"]{
+  background: #8F542E;
+  border-radius: 8px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  color: #F0F0F0;
+  border-style: none;
+}
+
+.button input[type="button"]:hover{
+  background: #CA8D67;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /// */

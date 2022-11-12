@@ -1,0 +1,265 @@
+
+body{
+    font-size: 16px;
+    text-align: center;
+    background-color: #FFFFFF; 
+
+}
+.sobrenos h1 {
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+    font-style: normal;
+    font-weight: 437px;
+    font-size: 88px;
+    line-height: 107px;
+    color: #ebdacc;
+}
+
+.corpo h4{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #1F0C00;
+}
+
+.corpo p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 28px;
+    color:#1F0C00;
+}
+
+#sobre{
+    position: absolute;
+    width: 473px;
+    height: 107px;
+    left: 483px;
+    top: 326px;
+    z-index:1;
+    white-space: nowrap;
+}
+
+.quemsomos{
+    position: absolute;
+    width: 260px;
+    height: 56px;
+    left: 120px;
+    top: 658px;
+    z-index:1;
+    white-space: nowrap;
+}
+
+.txt{
+    position: absolute;
+    width: 607px;
+    height: 504px;
+    left: 120px;
+    top: 807px;
+    text-align: justify;
+}
+
+.imagemcafe{
+    position: absolute;
+    border-radius: 50%;
+    width: 750px;
+    height: 510.34px;
+    left: 650px;
+    top: 767px;
+}
+.corpo img{
+    border-radius: 50%;
+}
+
+.imagemfundo{
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 100px;
+  }
+
+.square {
+    position: absolute;
+    width: 301px;
+    height: 28px;
+    left: 104px;
+    top: 738px;
+    background: #FBC9A8;
+   }
+
+.about-section {
+    position: absolute;
+    width: 245px;
+    height: 4.8px;
+    left: 598px;
+    top: 1405px;
+    z-index:1;
+  }
+  
+.about-section h2 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;    
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #F5F3ED;
+    z-index:1;
+  }
+
+.box h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #1F0C00;
+    position: absolute;
+    z-index:1;
+    border-style: none;
+    }
+  
+.box {
+    background-color: #F5F3ED;
+    border-radius: 8px;
+    z-index:auto;
+  }    
+  
+#box1{
+    position: absolute;
+    width: 996px;
+    height: 266px;
+    left: 222px;
+    top: 1497px;
+    z-index:1;
+  }
+
+#nomecarol{
+    position: absolute;
+    width: 209px;
+    height: 30px;
+    left: 530px;
+    top: 1514px;
+    z-index: 1;
+}
+  
+#box2{
+    position: absolute;
+    width: 996px;
+    height: 301px;
+    left: 222px;
+    top: 1795px;
+    z-index:1;
+}
+
+#nomelaura{
+    position: absolute;
+    width: 177px;
+    height: 30px;
+    left: 530px;
+    top: 1812px;
+    z-index: auto;
+}
+  
+#box3{
+    position: absolute;
+    width: 996px;
+    height: 273px;
+    left: 222px;
+    top: 2128px;
+    z-index:1;
+  }
+
+#nomejoao{
+    position: absolute;
+    width: 159px;
+    height: 30px;
+    left: 530px;
+    top: 2145px;
+    z-index: 1;
+}
+  
+.imgcaroline{
+    position: absolute;
+    width: 249px;
+    height: 231px;
+    left: 261px;
+    top: 1514px;
+    z-index:1;
+    border-radius: 50%;
+}
+
+.imglaura{
+    position: absolute;
+    width: 243px;
+    height: 235px;
+    left: 261px;
+    top: 1829px;
+    z-index:1;
+}
+
+.imgjoao{
+    position: absolute;
+    width: 243px;
+    height: 235px;
+    left: 261px;
+    top: 2144px;
+    z-index:1;
+}
+
+.bottom{
+    position: absolute;
+    width: 1440px;
+    height: 1109px;
+    left: 0px;
+    top: 1350px;
+    background-color: #8F542E;
+    z-index:auto;
+}
+
+.box p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F0C00;
+    border-style: none;
+    z-index:auto;
+}
+
+#txt1{
+    position: absolute;
+    width: 575px;
+    height: 112px;
+    left: 529px;
+    top: 1598px;
+    text-align: justify;
+    z-index:2;
+}
+
+
+#txt2{
+    position: absolute;
+    width: 575px;
+    height: 168px;
+    left: 529px;
+    top: 1896px;
+    text-align: justify;
+    z-index:1;
+}
+
+#txt3{
+    position: absolute;
+    width: 575px;
+    height: 140px;
+    left: 529px;
+    top: 2229px;
+    text-align: justify;
+    z-index:1;
+}
