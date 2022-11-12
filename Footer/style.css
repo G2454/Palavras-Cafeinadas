@@ -21,9 +21,131 @@ footer#quadrado-bot{
     background: #57290B;
     position: absolute;
     top: 700px;
+}
 
+
+.contato-redes-sociais{
+    /*background: #ff0404;*/ 
+    display: block;
+    height: 200px;
+    width: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -320px;
+    right: 15%;
+}
+
+.contato-redes-sociais p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contato-redes-sociais p:nth-child(1){
+    float: left;
+  
+}
+
+.contato-redes-sociais p:nth-child(2) {
+    float: right;
+    margin-right: 40%;
+    
+}
+
+.telefone-area i {
+    position: absolute;
+    right: 96%;
+    bottom: 70%;
+    color: #B2784A;
 
 }
+
+.telefone-area p {
+    position: absolute;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: #E2C196;
+    font-size: 20px;
+    bottom: 67%;
+    left: 5%;
+}
+
+.email-area i{
+    position: absolute;
+        right: 96%;
+        top: 50%;
+        color: #B2784A;
+        
+}
+
+.email-area a{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: #E2C196;
+    font-size: 20px;
+    right: 72%;
+    top: 43%;
+}
+
+.gps-area i {
+    position: absolute;
+    right: 96.2%;
+    top: 72%;
+    color: #B2784A;
+
+}
+
+.gps-area p {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: #E2C196;
+    font-size: 18px;
+    left: 5%;
+    top: 66%;
+}
+
+.instagram-area i {
+    position: absolute;
+    right: 57%;
+    bottom: 69%;
+    color: #B2784A;
+
+}
+
+.instagram-area p {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: #E2C196;
+    font-size: 18px;
+    right: -5%;
+    bottom: 65%;
+}
+
+.facebook-area i {
+    position: absolute;
+    right: 57%;
+    bottom: 49%;
+    color: #B2784A;
+
+}
+
+.facebook-area p {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: #E2C196;
+    font-size: 18px;
+    right: -5%;
+    bottom: 44%;
+}
+
 .quadradinho-bot{
     display: block;
     width: 1150px;
@@ -37,6 +159,7 @@ footer#quadrado-bot{
 .logo-branco-area{
     position: absolute;
     bottom: 25%;
+    font-size: x-large;
     
 }
 
@@ -45,7 +168,7 @@ footer#quadrado-bot p:nth-child(1){
 }
 footer#quadrado-bot p:nth-child(2) {
     float: left;
-    margin-right: 700px;
+    margin-right: 650px;
 
 }
 
