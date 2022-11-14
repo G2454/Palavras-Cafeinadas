@@ -24,12 +24,12 @@ body{
   z-index: 1;
 }
 
-.box {
+.titulo .box {
   background-color: #E5E5E5;
   position: absolute;
   width: 1440px;
   height: 594px;
-  left: -1px;
+  left: 0px;
   top: 100px;
   z-index: auto;
 }
@@ -39,7 +39,8 @@ body{
   width: 382.5px;
   height: 269.27px;
   left: 0px;
-  top: 389px;
+  top: 425px;
+  z-index: 1;
 }
 
 .detalhelivro2{
@@ -47,6 +48,96 @@ body{
   width: 382.5px;
   height: 269.27px;
   left: 1040px;
-  top: 389px;
+  top: 415px;
   z-index: 1;
+}
+
+.livraria h4{
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #1F0C00;
+}
+
+.livraria{
+  position: absolute;
+  width: 195px;
+  height: 56px;
+  left: 120px;
+  top: 711px;
+  z-index:1;
+  white-space: nowrap;
+}
+
+.square {
+  position: absolute;
+  width: 227px;
+  height: 28px;
+  left: 104px;
+  top: 791px;
+  background: #FBC9A8;
+  z-index: auto;
+ }
+
+ .livros .vendidos{
+  position: absolute;
+  width: 230px;
+  height: 18px;
+  left: 612px;
+  top: 790px;
+  white-space: nowrap;
+ }
+
+ .livros .vendidos h3{
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 18px;
+   text-transform: uppercase;
+   color: #8F542E;
+ }
+
+ .livros .imglivros .livro1{
+  position: absolute;
+  width: 232px;
+  height: 343.97px;
+  left: 219px;
+  top: 856px;
+ }
+ 
+ .livros .imglivros .livro2{
+  position: absolute;
+  width: 230px;
+  height: 349.69px;
+  left: 606px;
+  top: 856px;
+}
+
+.livros .imglivros .livro3{
+  position: absolute;
+  width: 240px;
+  height: 344.59px;
+  left: 988px;
+  top: 856px;
+}
+
+.livros .imglivros .livro4{
+  position: absolute;
+  width: 239px;
+  height: 346.06px;
+  left: 412px;
+  top: 1279px;
+}
+
+.livros .imglivros .livro5{
+  position: absolute;
+  width: 240px;
+  height: 356.44px;
+  left: 790px;
+  top: 1270px;
 }
