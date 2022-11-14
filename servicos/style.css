@@ -1,0 +1,52 @@
+body{
+  font-size: 16px;
+  text-align: center;
+  background-color: #FFFFFF; 
+}
+
+
+.servicos h1 {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 107px;
+  color: #57290B;
+}
+
+#servico{
+  position: absolute;
+  width: 410px;
+  height: 107px;
+  left: 515px;
+  top: 326px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.box {
+  background-color: #E5E5E5;
+  position: absolute;
+  width: 1440px;
+  height: 594px;
+  left: -1px;
+  top: 100px;
+  z-index: auto;
+}
+
+.detalhelivro1{
+  position: absolute;
+  width: 382.5px;
+  height: 269.27px;
+  left: 0px;
+  top: 389px;
+}
+
+.detalhelivro2{
+  position: absolute;
+  width: 382.5px;
+  height: 269.27px;
+  left: 1040px;
+  top: 389px;
+  z-index: 1;
+}
