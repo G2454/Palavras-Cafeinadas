@@ -3,7 +3,15 @@ body{
   text-align: center;
   background-color: #FFFFFF; 
 }
-
+.titulo{
+  background-color: #E5E5E5;
+  position: absolute;
+  width: 1440px;
+  height: 557px;
+  left: 0px;
+  top: 100px;
+  z-index: auto;
+}
 
 .servicos h1 {
   font-family: 'Cormorant Garamond';
@@ -12,6 +20,7 @@ body{
   font-size: 88px;
   line-height: 107px;
   color: #57290B;
+  text-align: center;
 }
 
 #servico{
@@ -19,19 +28,9 @@ body{
   width: 410px;
   height: 107px;
   left: 515px;
-  top: 326px;
+  top: 226px;
   white-space: nowrap;
   z-index: 1;
-}
-
-.titulo .box {
-  background-color: #E5E5E5;
-  position: absolute;
-  width: 1440px;
-  height: 594px;
-  left: 0px;
-  top: 100px;
-  z-index: auto;
 }
 
 .detalhelivro1{
@@ -39,7 +38,7 @@ body{
   width: 382.5px;
   height: 269.27px;
   left: 0px;
-  top: 425px;
+  top: 289px;
   z-index: 1;
 }
 
@@ -47,9 +46,18 @@ body{
   position: absolute;
   width: 382.5px;
   height: 269.27px;
-  left: 1040px;
-  top: 415px;
+  left: 1039px;
+  top: 280px;
   z-index: 1;
+}
+
+.livros{
+  position: absolute;
+  width: 1440px;
+  height: 1073px;
+  background:#F5F3ED;
+  top: 657px;
+  left: -1px;
 }
 
 .livraria h4{
@@ -68,7 +76,7 @@ body{
   width: 195px;
   height: 56px;
   left: 120px;
-  top: 711px;
+  top: 1px;
   z-index:1;
   white-space: nowrap;
 }
@@ -78,44 +86,108 @@ body{
   width: 227px;
   height: 28px;
   left: 104px;
-  top: 791px;
+  top: 81px;
   background: #FBC9A8;
   z-index: auto;
  }
 
- .livros .vendidos{
+.livros .vendidos{
   position: absolute;
   width: 230px;
   height: 18px;
   left: 612px;
-  top: 790px;
+  top: 105px;
   white-space: nowrap;
- }
+}
 
- .livros .vendidos h3{
-   font-family: 'Open Sans';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 18px;
-   text-transform: uppercase;
-   color: #8F542E;
- }
+.livros .vendidos h3{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #8F542E;
+}
 
- .livros .imglivros .livro1{
+.linha1{
+  position: justify;
+  width: 225px;
+  height: 0px;
+  left: 616px;
+  top: 159px;
+  border: 2px solid #B2784A;
+}
+
+.livros .imglivros h2{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 112%px;
+  text-transform: capitalize;
+  color: #1F0C00;
+}
+
+.livros .imglivros p{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #525252;
+}
+
+.livros .imglivros .livro1{
   position: absolute;
   width: 232px;
   height: 343.97px;
   left: 219px;
-  top: 856px;
- }
+  top: 199px;
+  border-radius: 8px;
+}
+
+.livros .imglivros .livro1 h2{
+  position: justify;
+  width: 151px;
+  height: 18px;
+  left: 222px;
+  top: 548px;
+  z-index: 1;
+}
+
+.livros .imglivros .livro1 p{
+  position: justify;
+  width: 88px;
+  height: 19.17px;
+  left: 222px;
+  top: 570px;
+}
  
- .livros .imglivros .livro2{
+.livros .imglivros .livro2{
   position: absolute;
   width: 230px;
   height: 349.69px;
   left: 606px;
-  top: 856px;
+  top: 199px;
+  border-radius: 8px;
+}
+
+.livros .imglivros .livro2 h2{
+  position: justify;
+  width: 96px;
+  height: 18px;
+  left: 606px;
+  top: 548px;
+}
+
+.livros .imglivros .livro2 p{
+  position: justify;
+  width: 126px;
+  height: 16.5px;
+  left: 607px;
+  top: 570px;
 }
 
 .livros .imglivros .livro3{
@@ -123,7 +195,25 @@ body{
   width: 240px;
   height: 344.59px;
   left: 988px;
-  top: 856px;
+  top: 199px;
+  border-radius: 8px;
+}
+
+.livros .imglivros .livro3 h2{
+  position: justify;
+  width: 135px;
+  height: 18px;
+  left: 990px;
+  top: 548px;
+  white-space: nowrap;
+}
+
+.livros .imglivros .livro3 p{
+  position: justify;
+  width: 126px;
+  height: 16.5px;
+  left: 607px;
+  top: 570px;
 }
 
 .livros .imglivros .livro4{
@@ -131,7 +221,24 @@ body{
   width: 239px;
   height: 346.06px;
   left: 412px;
-  top: 1279px;
+  top: 622px;
+  border-radius: 8px;
+}
+
+.livros .imglivros .livro4 h2{
+  position: justify;
+  width: 37px;
+  height: 18px;
+  left: 417px;
+  top: 973px;
+}
+
+.livros .imglivros .livro4 p{
+  position: justify;
+  width: 94px;
+  height: 16.5px;
+  left: 418px;
+  top: 995.26px;
 }
 
 .livros .imglivros .livro5{
@@ -139,5 +246,209 @@ body{
   width: 240px;
   height: 356.44px;
   left: 790px;
-  top: 1270px;
+  top: 622px;
+  border-radius: 8px;
 }
+
+.livros .imglivros .livro5 h2{
+  position: justify;
+  width: 163px;
+  height: 18px;
+  left: 797px;
+  top: 973px;
+}
+
+.livros .imglivros .livro5 p{
+  position: justify;
+  width: 88px;
+  height: 19.17px;
+  left: 798px;
+  top: 995.26px;
+  right: 555px;
+}
+
+.cafeteria{
+  position: absolute;
+  width: 1440px;
+  height: 624px;
+  left: 0px;
+  top: 1730px;
+  background: #80451F;
+}
+
+.about-section {
+  position: absolute;
+  width: 245px;
+  height: 4.8px;
+  left: 598px;
+  top: 52px;
+  z-index:1;
+}
+
+.about-section h2 {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-size: 40px;
+  line-height: 48px;    
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #F5F3ED;
+  z-index:1;
+}
+
+.boxmensagem{
+  position: absolute;
+  width: 1441px;
+  height: 886px;
+  left: -3px;
+  top: 2354px;
+  background: #F5F3ED;
+}
+.boxmensagem .livraria{
+  position: absolute;
+  width: 452px;
+  height: 56px;
+  left: 113px;
+  top: 5px;
+}
+
+.boxmensagem .square{
+  position: center;
+  width: 484px;
+  height: 28px;
+  left: 100px;
+  top: 83px;
+  background: #FBC9A8;
+}
+
+.boxmensagem .imgmesa{
+  position: absolute;
+  width: 485px;
+  height: 742.35px;
+  left: 834px;
+  top: 111px;
+  border-radius: 8px;
+}
+
+.boxmensagem p{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #1F0C00;
+}
+
+.boxmensagem textarea{ 
+  position: absolute;
+  width: 587px;
+  height: 220px;
+  left: 121px;
+  top: 449px;
+  background: #F5F5F5;
+  border: 1px solid #8F542E;
+  border-radius: 8px;
+}
+.boxmensagem label{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #1F0C00;
+}
+
+.boxmensagem .input-boxnome label{
+  position: absolute;
+  width: 74px;
+  height: 30px;
+  left: 121px;
+  top: 143px;
+}
+
+.boxmensagem .input-boxemail label{
+  position: absolute;
+  width: 76px;
+  height: 30px;
+  left: 122px;
+  top: 279px;
+}
+
+.boxmensagem .input-box-message-box label{
+  position: absolute;
+  width: 134px;
+  height: 30px;
+  left: 122px;
+  top: 415px;
+}
+
+.boxmensagem .input-boxemail textarea{
+  position: absolute;
+  width: 587px;
+  height: 70px;
+  left: 121px;
+  top: 313px;
+  background: #F5F5F5;
+  border: 1px solid #8F542E;
+  border-radius: 8px;
+}
+
+.boxmensagem .input-boxnome textarea{
+  position: absolute;
+  width: 588px;
+  height: 70px;
+  left: 120px;
+  top: 177px;
+  background: #F5F5F5;
+  border: 1px solid #8F542E;
+  border-radius: 8px;
+}
+
+.boxmensagem .button [type="button"]{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 20px;
+  position: absolute;
+  width: 282px;
+  height: 57px;
+  left: 122px;
+  top: 701px;
+  background: #8F542E;
+  border-radius: 8px;
+}
+
+.boxmensagem .button input[type="button"]{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 20px;
+  position: absolute;
+  width: 282px;
+  height: 57px;
+  left: 122px;
+  top: 701px;
+  background: #8F542E;
+  border-radius: 8px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; 
+  color: #F0F0F0;;
+}
+
+.button input[type="button"]:hover{
+  background: #CA8D67;
+}
+

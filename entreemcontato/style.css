@@ -195,6 +195,42 @@ body{
   border-radius: 8px;
 }
 
+.right-side label{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;;
+  color: #1F0C00;
+}
+
+.right-side .input-boxnome label{
+  position: absolute;
+  width: 74px;
+  height: 30px;
+  left: 41px;
+  top: 43px;
+}
+
+.right-side .input-boxemail label{
+  position: absolute;
+  width: 76px;
+  height: 30px;
+  left: 41px;
+  top: 179px;
+  white-space: nowrap;
+}
+
+.right-side .input-box-message-box label{
+  position: absolute;
+  width: 134px;
+  height: 30px;
+  left: 41px;
+  top: 315px;
+}
+
 .right-side .button [type="button"]{
   display: flex;
   flex-direction: row;
