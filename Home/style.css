@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 
 .banner-image{
     height: 500px;
@@ -95,6 +100,7 @@
 .onda-imagem{
     position: absolute;
     top:190%;
+    max-width: fit-content;
 
 }
 
