@@ -100,7 +100,7 @@ html,body {
 .onda-imagem{
     position: absolute;
     top:190%;
-    max-width: fit-content;
+    
 
 }
 
@@ -163,4 +163,163 @@ html,body {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+.nossos-servicos a{
+    text-decoration: none;
+    color:#1F0C00 ;
+}
+
+.conheca{
+    display: none;
+}
+
+.nossa-jornada{
+    display: none;
+}
+
+.apaixonese{
+    
+}
+
+@media(max-width: 858px){
+    .banner-image {
+        height: 310px;
+        width: 180%;
+        left: -70%;
+    
+    }
+    .sombra {
+        position: absolute;
+        height: 310px;
+        width: 100%;
+
+    }
+    .texto-grande {
+        position: relative;
+        font-size: 40px;
+        margin-top: -10%;
+    }
+    .texto-grande br {
+        display: none;
+    }
+    .texto-pequeno {
+        position: relative;
+        font-size: 22px;
+    }
+    .texto-pequeno br{
+        display: none;
+    }
+    .conheca{
+        background-color: #8F542E;
+        position: inherit;
+        top: 150%;
+        left: -1%;
+        border: none;
+        
+        padding: 12px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bolder;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .conheca a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .sobre-nos-img{
+        display: none;
+    }
+    .sobre-nos {
+        position: absolute;
+        top: 79%;
+        width: 100%;
+        height: 500px;
+        background-color: #fff;
+    }
+    .square {
+        position: relative;
+        height: 30px;
+        width: 38%;
+        left: 9%;
+        top: 15%;
+        background-color: #FBC9A8;
+    }
+    .nossa-jornada {
+        background-color: #8F542E;
+        position: inherit;
+        bottom: 10%;
+        left: 35%;
+        border: none;
+        padding: 16px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bolder;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .nossa-jornada a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .onda-imagem {
+        top: 160%;
+    }
+    .venha-se-apaixonar {
+        position: absolute;
+        top: 180%;
+        width: 100%;
+        height: 1000px;
+        background-color: #80451F;
+    }
+    .venha-se-apaixonar h1 {
+        position: relative;
+        top: 20%;
+        text-align: center;
+        color: white;
+        font-size: 45px;
+        display: none;
+        }
+    .apaixonese{
+        position: relative;
+        top: 11%;
+        text-align: center;
+        color: white;
+        font-size: 35px;
+        }
+    .linha-venha {
+        position: relative;
+        background-color: #B2784A;
+        height: 2px;
+        width: 30%;
+        top: 11%;
+        left: 35%;
+        }
+    .livraria {
+        position: absolute;
+        top: 210%;
+        left: 7%;
+        width: 50%;
+        height: auto;
+    
+        }
+    
+    .cafe {
+        position: absolute;
+        top: 210%;
+        left: 55%;
+        width: 50%;
+        height: auto;
+    
+        }
+    .nossos-servicos{
+        display: none;
+    }
 }
