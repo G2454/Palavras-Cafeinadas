@@ -179,7 +179,23 @@ html,body {
 }
 
 .apaixonese{
-    
+    color: #80451F;
+}
+
+@media(max-width: 1280px){
+    .square{
+        left: 9.5%;
+    }
+}
+
+@media(max-width: 1130px){
+    .sobre-nos-img{
+        display: none;
+    }
+    .square{
+        left: 8%;
+        width: 250px;
+    }
 }
 
 @media(max-width: 858px){
@@ -321,5 +337,22 @@ html,body {
         }
     .nossos-servicos{
         display: none;
+    }
+}
+
+@media(max-width: 610px){
+    .texto1{
+        font-size: 15px;
+    }
+    .texto2 {
+        font-size: 15px;
+    }
+    .livraria img{
+        width: 200px;
+        height: auto;
+    }
+    .cafe img {
+        width: 200px;
+        height: auto;
     }
 }
