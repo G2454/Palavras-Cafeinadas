@@ -376,6 +376,7 @@ body{
   height: 30px;
   left: 122px;
   top: 279px;
+  white-space: nowrap;
 }
 
 .boxmensagem .input-box-message-box label{

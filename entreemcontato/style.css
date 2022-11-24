@@ -1,47 +1,61 @@
-/* Google Font CDN Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
+  font-size: 1.6rem;
   background: #ffffff;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
+
 .square {
   position: absolute;
-  width: 438px;
+  width: 30%;
+  max-width: 438px;
   height: 28px;
   left: 102px;
   top: 167px;
   background: #FBC9A8;
  }
+
 .topic-text{
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 4.0rem;
+  line-height: 4.8rem;
   letter-spacing: 0.02em;
   color: #1F0C00;
   white-space: nowrap;
 }
 .topic-text{
   position: absolute;
-  width: 406px;
+  width: 28%;
+  max-width: 406px;
   height: 48px;
   left: 118px;
   top: 142px;
   z-index: 1;
 }
 .container{
-  width: 1200px;
+  width: 84%;
   background: #ffffff;
   border-radius: 8px;
 }
 
 .container .content .left-side{
-  width: 510px;
+  max-width: 510px;
+  width: 47%;
+  max-width: 510px;
   height: 711px;
   top: 219px;
   left: 120px;
@@ -62,8 +76,8 @@ body{
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
 }
 
 .phonedetails{ 
@@ -74,7 +88,8 @@ body{
 
 .text-1{
   position: absolute;
-  width: 120px;
+  max-width: 120px;
+  width: 100%;
   height: 25px;
   left: 73px;
   top: 43px;
@@ -82,10 +97,11 @@ body{
 
 .text-2{
   position: absolute;
-  width: 180px;
+  max-width: 180px;
+  width: 12.5%;
   height: 25px;
   left: 73px;
-  top: 86px;
+  padding-top: 86px;
 }
 
 .emaildetails{ 
@@ -154,7 +170,8 @@ body{
 
 .container .content .right-side{
   position: absolute;
-  width: 690px;
+  max-width: 690px;
+  width: 53%;
   height: 711px;
   left: 630px;
   top: 219px;
@@ -164,7 +181,8 @@ body{
 
 .right-side textarea{
   position: absolute;
-  width: 609px;
+  max-width: 609px;
+  width: 88%;
   height: 220px;
   left: 41px;
   top: 349px;
@@ -175,7 +193,8 @@ body{
 
 .right-side .input-boxemail textarea{
   position: absolute;
-  width: 609px;
+  max-width: 609px;
+  width: 88%;
   height: 70px;
   left: 41px;
   top: 213px;
@@ -186,7 +205,8 @@ body{
 
 .right-side .input-boxnome textarea{
   position: absolute;
-  width: 609px;
+  max-width: 609px;
+  width: 88%;
   height: 70px;
   left: 41px;
   top: 77px;
@@ -199,8 +219,8 @@ body{
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 2.4rem;
+  line-height: 3.0rem;
   letter-spacing: 0.02em;
   text-transform: capitalize;;
   color: #1F0C00;
@@ -251,8 +271,8 @@ body{
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 800;
-  font-size: 18px;
-  line-height: 33px;
+  font-size: 1.8rem;
+  line-height: 3.3rem;
   letter-spacing: 0.03em;
   color: #F0F0F0;
   border-style: none;
@@ -263,132 +283,50 @@ body{
 }
 
 
+@media screen and (max-width: 640px) {
+  .icons {
+    display: none;
+  }
+  .img {
+    display: none;
+  }
+  .img2 {
+    display: none;
+  }
+}
+
+@media  screen and (max-width: 640px){
+
+ .container .content .right-side{
+   width: 88.5%;
+   background-color: #F0F0F0;
+   border-radius: 8px;
+   align-content: center;
+   position: absolute;
+ 
+  }
+
+ .container .content .left-side{
+    width: 92.5%;
+    border-radius: 8px;
+    z-index: 0;
+    align-content: center;
+    position: relative;
+  }
+
+  .topic-text{
+    font-size: 3.4rem;
+    line-height: 4.2rem;
+    letter-spacing: 0.02em;
+  }
+
+  .square{
+    width: 370px;
+    height: 21px; 
+  }
+
+  .right-side .button [type="button"]{
+    align-content: center;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* /// */
