@@ -376,7 +376,7 @@ nav ul li a {
     }
 
     .borda1 {
-        position: fixed;
+        position: absolute;
         width: 100%;
         background-color: #B2784A;
         height: 5px;
@@ -386,7 +386,7 @@ nav ul li a {
     }
 
     .borda2 {
-        position: fixed;
+        position: absolute;
         width: 100%;
         background-color: #B2784A;
         height: 5px;
@@ -396,7 +396,7 @@ nav ul li a {
     }
 
     .borda3 {
-        position: fixed;
+        position: absolute;
         width: 100%;
         background-color: #B2784A;
         height: 5px;

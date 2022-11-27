@@ -61,46 +61,6 @@ nav ul li a{
     display: none;
 }
 
-
-
-/*
-.header{
-    height: 100px;
-    width: 100%;
-    padding: 0 8%;
-    background: #57290B;
-    position: relative;
-}
-
-
-.header ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: right;
-}
-
-
-.header li a{
-    text-decoration: underline #B2784A;
-    color: #E2C196;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    font-weight: normal;
-    display: block;
-    padding: 10px 20px;
-    justify-content: space-between;
-    margin: 30px;
-
-    
-}
-
-.header li a: hover{
-     
-}
-
-*/
-
 .logo-area{
     width: 500px;
     height: 200px;
