@@ -1,121 +1,143 @@
 
+html{
+    font-size: 62.5%;
+}
+
 body{
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: center;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
+}
+/* Banner*/
+.imagemfundo{
+    position: absolute;
+    background-image: url(/sobrenos/Assets/sobrenos.png);
+    width: 100%;
+    height: 559px;
+    left: 0px;
+    top: 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .sobrenos h1 {
     font-family: 'Cormorant Garamond';
     text-align: center;
     font-style: normal;
-    font-weight: 437px;
-    font-size: 88px;
-    line-height: 107px;
+    font-weight: 43.7rem;
+    font-size: 5.5vw;
+    line-height: 10.7rem;
     color: #ebdacc;
+
+}
+.sobrenos{
+    position: absolute;
+    width: 32.84%;
+    height: 107px;
+    padding-left: 33.54%;
+    padding-top: 326px;
+    z-index:1;
+    white-space: nowrap;
 }
 
+/* Titulo Corpo*/
 .corpo h4{
     font-family: 'Cormorant Garamond';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 4.0rem;
+    line-height: 5.6rem;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #1F0C00;
 }
+.quemsomos{
+    position: absolute;
+    width: 18%;
+    height: 56px;
+    left: 120px;
+    top: 648px;
+    z-index:1;
+    white-space: nowrap;
+}
 
-.corpo p{
+/* Texto do Corpo*/
+.txt{
+    position: absolute;
+    max-width: 607px;
+    width: 42%;
+    height: 504px;
+    padding-left: 12.0rem;
+    padding-top: 80.7rem;
+    text-align: justify;
+}
+.corpo .txt p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400px;
     line-height: 28px;
     color:#1F0C00;
 }
 
-#sobre{
-    position: absolute;
-    width: 473px;
-    height: 107px;
-    left: 483px;
-    top: 326px;
-    z-index:1;
-    white-space: nowrap;
-}
-
-.quemsomos{
-    position: absolute;
-    width: 260px;
-    height: 56px;
-    left: 120px;
-    top: 658px;
-    z-index:1;
-    white-space: nowrap;
-}
-
-.txt{
-    position: absolute;
-    width: 607px;
-    height: 504px;
-    left: 120px;
-    top: 807px;
-    text-align: justify;
-}
-
+/* Imagem do Corpo*/
 .imagemcafe{
     position: absolute;
+    background-image: url(/sobrenos/Assets/cafe-corpo.png);
     border-radius: 50%;
-    width: 750px;
-    height: 510.34px;
-    left: 650px;
+    width: 36%;
+    height: 485px;
+    left: 58%;
     top: 767px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .corpo img{
     border-radius: 50%;
 }
 
-.imagemfundo{
-    position: absolute;
-    width: 1440px;
-    height: 500px;
-    left: 0px;
-    top: 100px;
-  }
-
 .square {
     position: absolute;
-    width: 301px;
+    max-width: 301px;
+    width: 25%;
     height: 28px;
     left: 104px;
-    top: 738px;
+    top: 728px;
     background: #FBC9A8;
    }
 
+   /* Caixa de Apresentação*/
+
 .about-section {
     position: absolute;
-    width: 245px;
+    max-width: 269px;
+    width: 17%;
     height: 4.8px;
-    left: 598px;
-    top: 1405px;
+    padding-left: 598px;
+    padding-top: 1370px;
     z-index:1;
+    white-space: nowrap;
   }
   
 .about-section h2 {
     font-family: 'Cormorant Garamond';
     font-style: normal;
-    font-size: 40px;
-    line-height: 48px;    
+    font-size: 250%;
+    line-height: 4.8rem;    
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #F5F3ED;
     z-index:1;
   }
 
+.box {
+    background-color: #F5F3ED;
+    border-radius: 8px;
+    z-index:auto;
+  }  
 .box h4{
     font-family: 'Open Sans';
     font-style: normal;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #1F0C00;
@@ -123,98 +145,153 @@ body{
     z-index:1;
     border-style: none;
     }
+    
   
-.box {
-    background-color: #F5F3ED;
-    border-radius: 8px;
-    z-index:auto;
-  }    
-  
+/*Informações Carol*/
+
 #box1{
     position: absolute;
-    width: 996px;
+    max-width: 996px;
+    width: 100%;
     height: 266px;
-    left: 222px;
     top: 1497px;
     z-index:1;
-  }
+    margin-left: 15.5%;
+    margin-right: 15.5%;
+}
 
 #nomecarol{
     position: absolute;
     width: 209px;
     height: 30px;
-    left: 530px;
-    top: 1514px;
+    left: 30.92%;
+    top: 4.71%;
     z-index: 1;
+    background: none;
 }
+  
+.imgcaroline{
+    background-image: url(/sobrenos/Assets/caroline.png);
+    position: absolute;
+    max-width: 249px;
+    width: 100%;
+    height: 231px;
+    left: 3.90%;
+    top: 6.39%;
+    z-index:1;
+    clip-path: circle(50% at 50% 50%);
+}
+
+#txt1{
+    position: absolute;
+    max-width: 575px;
+    width: 60%;
+    height: 112px;
+    left: 30.92%;;
+    top: 34%;
+    text-align: justify;
+    z-index:1;
+    background: none;
+}
+
+
+/*Informações Laura*/
   
 #box2{
     position: absolute;
-    width: 996px;
+    max-width: 996px;
+    width: 100%;
     height: 301px;
-    left: 222px;
+    margin-left: 15.5%;
+    margin-right: 15.5%;
     top: 1795px;
     z-index:1;
 }
+
 
 #nomelaura{
     position: absolute;
     width: 177px;
     height: 30px;
-    left: 530px;
-    top: 1812px;
+    left: 30.92%;
+    top: 4.71%;
     z-index: auto;
+    background: none;
 }
-  
+
+.imglaura{
+    background-image: url(/sobrenos/Assets/laura.png);
+    position: absolute;
+    max-width: 243px;
+    width: 100%;
+    height: 231px;
+    left: 3.90%;
+    top: 11.29%;
+    z-index:1;
+    clip-path: circle(50% at 50% 50%);
+}
+
+#txt2{
+    position: absolute;
+    max-width: 575px;
+    width: 60%;
+    height: 168px;
+    left: 30.92%;;
+    top: 28%;
+    text-align: justify;
+    z-index:1;
+    background: none;
+}
+
+/*Informações João*/
 #box3{
     position: absolute;
-    width: 996px;
+    max-width: 996px;
+    width: 100%;
     height: 273px;
-    left: 222px;
+    margin-left: 15.5%;
+    margin-right: 15.5%;
     top: 2128px;
     z-index:1;
-  }
+}
 
 #nomejoao{
     position: absolute;
     width: 159px;
     height: 30px;
-    left: 530px;
-    top: 2145px;
+    left: 30.92%;
+    top: 4.71%;
     z-index: 1;
-}
-  
-.imgcaroline{
-    position: absolute;
-    width: 249px;
-    height: 231px;
-    left: 261px;
-    top: 1514px;
-    z-index:1;
-    border-radius: 50%;
-}
-
-.imglaura{
-    position: absolute;
-    width: 243px;
-    height: 235px;
-    left: 261px;
-    top: 1829px;
-    z-index:1;
+    background: none;
 }
 
 .imgjoao{
+    background-image: url(/sobrenos/Assets/joao.png);
     position: absolute;
-    width: 243px;
-    height: 235px;
-    left: 261px;
-    top: 2144px;
+    max-width: 240px;
+    width: 100%;
+    height: 231px;
+    left: 3.90%;
+    top: 6.39%;
+    z-index:10;
+    clip-path: circle(50% at 50% 50%);
+}
+
+#txt3{
+    position: absolute;
+    max-width: 575px;
+    width: 60%;
+    height: 140px;
+    left: 30.92%;;
+    top: 31%;
+    text-align: justify;
     z-index:1;
+    background: none;
 }
 
 .bottom{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 1109px;
     left: 0px;
     top: 1350px;
@@ -226,40 +303,162 @@ body{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
     color: #1F0C00;
     border-style: none;
     z-index:auto;
 }
 
-#txt1{
-    position: absolute;
-    width: 575px;
-    height: 112px;
-    left: 529px;
-    top: 1598px;
-    text-align: justify;
-    z-index:2;
+@media screen and (max-width: 480px){
+    .imagemfundo{
+        position: absolute;
+        background-image: url(/sobrenos/Assets/sobrenos-mobile.png);
+        height: 186px;
+    }
+    .sobrenos{
+        padding-left: 18.125%;
+        font-size: 10vw;
+    }
+    .imagemcafe{
+        left: 3.75%;
+        top:50%;
+        width: 58%;
+        height: 283px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+
+    .imagemfundo{
+        position: absolute;
+        background-image: url(/sobrenos/Assets/sobrenos-mobile.png);
+        height: 344px;
+    }
+    .sobrenos{
+        position: absolute;
+        padding-left: 18.125%;
+        font-size: 10vw;
+        top: -25%;
+        align-items: center;
+        align-content: center;
+    }
+    .quemsomos{
+        top: 64%;
+        left: 5.625%;
+        font-size: 212.5%;
+    }
+    .square{
+        left: 3.75%;
+        top: 77%;
+        width: 100%;
+    }
+    .imagemcafe{
+        background-size: 100%;
+        left: 3.75%;
+        top:84.17%;
+        width: 50%;
+        height: 350px;
+        border-radius: 50%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .txt {
+        text-align: left;
+        top:15%;
+    }
+
+    .about-section{
+        left: -45%;
+        top: 5%;
+    }
+
+
+    .imgcaroline{
+        background-image: url(/sobrenos/Assets/caroline-mobile.png);
+        background-size: 100%;
+        width: 100%;
+        height: 250px;
+        border-radius: 50%;
+        left: 20%;
+        top: 112%;
+    }
+
+    #box1{
+       width: 92.5%;
+       background: none;
+       font-size: 16px;
+
+    }
+
+    .box h4{
+        font-size: 2.0rem;
+    }
+
+    .box p{
+        font-size: 1.6rem;
+        color: #FFFFFF;
+    }
+
+    #txt1{
+        text-align: center;
+        height: 10px;
+        max-width: 592px;
+        width: 150%;  
+        left: -10%;  
+    }
+    #txt2{
+        text-align: center;
+        height: 10px;
+        max-width: 592px;
+        width: 150%;  
+        left: -10%
+    }
+    #txt3{
+        text-align: center;
+        height: 10px;
+        max-width: 592px;
+        width: 150%;  
+        left: -10%
+    }
+    
+
+    .imglaura{
+        background-image: url(/sobrenos/Assets/laura-mobile.png);
+        background-size: 100%;
+        width: 100%;
+        height: 250px;
+        border-radius: 50%;
+        left: 20%;
+        top:48%;
+    }
+
+    #box2{ 
+        background: none;
+    }
+    
+    .imgjoao{
+        background-image: url(/sobrenos/Assets/joao-mobile.png);
+        background-size: 100%;
+        width: 100%;
+        height: 250px;
+        border-radius: 50%;
+        left: 20%;
+        top: 195%;
+    }
+
+    #box3{
+        background: none;
+    }
+}
+  
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    
 }
 
 
-#txt2{
-    position: absolute;
-    width: 575px;
-    height: 168px;
-    left: 529px;
-    top: 1896px;
-    text-align: justify;
-    z-index:1;
-}
-
-#txt3{
-    position: absolute;
-    width: 575px;
-    height: 140px;
-    left: 529px;
-    top: 2229px;
-    text-align: justify;
-    z-index:1;
-}
