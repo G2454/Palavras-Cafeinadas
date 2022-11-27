@@ -64,7 +64,6 @@ body{
 /* Texto do Corpo*/
 .txt{
     position: absolute;
-    max-width: 607px;
     width: 42%;
     height: 504px;
     padding-left: 12.0rem;
@@ -311,25 +310,159 @@ body{
 }
 
 @media screen and (max-width: 480px){
+
     .imagemfundo{
         position: absolute;
         background-image: url(/sobrenos/Assets/sobrenos-mobile.png);
-        height: 186px;
+        height: 250px;
     }
+    .sobrenos h1 {
+        font-size: 5.7rem;
+    }
+
     .sobrenos{
-        padding-left: 18.125%;
-        font-size: 10vw;
+        position: absolute;
+        left: -20%;
+        top: -30%;
+        align-items: center;
+        align-content: center;
     }
-    .imagemcafe{
-        left: 3.75%;
-        top:50%;
-        width: 58%;
-        height: 283px;
+    .quemsomos{
+        top: 50%;
+        left: 5.625%;
+    }
+
+    .corpo h4{
+        font-size: 140.625%;
     }
     
+    .square{
+        left: 3.75%;
+        top: 59%;
+        width: 35%;
+    }
+    .imagemcafe{
+        background-image: url(/sobrenos/Assets/cafe-corpo-mobile.png);
+        background-size: 100%;
+        left: 3.75%;
+        top:67%;
+        width: 44%;
+        height: 200px;
+        border-radius: 50%;
+        float: left;
+        margin: 10 10px 10px 0;
+    }
 
 
+    .bottom{
+        width: 100%;
+        height: 250%;
+    }
+
+    .about-section{
+        left: -100%;
+        top: 2.5%;
+    }
+
+    .about-section h2 {
+        font-size: 140.625;
+    }
+
+/*Informações Carol*/
+    .imgcaroline{
+        background-image: url(/sobrenos/Assets/caroline-mobile.png);
+        background-size: 100%;
+        width: 100%;
+        height: 250px;
+        border-radius: 50%;
+        left: 11%;
+        top: 18%;
+    }
+    #nomecarol{
+        left: 20%;
+        top: 110%;
+    }
+
+    #txt1{
+        text-align: center;
+        height: 10px;
+        max-width: 592px;
+        width: 100%;  
+        left: -17%;
+        top: 130%;
+    }
+
+    #box1{
+       background: none;
+       font-size: 16px;
+    }
+/*Informações Laura*/
+    .imglaura{
+        background-image: url(/sobrenos/Assets/laura-mobile.png);
+        background-size: 100%;
+        width: 100%;
+        height: 250px;
+        border-radius: 50%;
+        left: 11%;
+        top:57%;
+    }
+    #nomelaura{
+        left: 20%;
+        top: 135%;
+    }
+    #txt2{
+        text-align: center;
+        word-wrap:break-word;
+        height: 10px;
+        max-width: 592px;
+        width: 100%;  
+        left: -17%;
+        top:150%;
+    }
+
+    #box2{ 
+        background: none;
+    }
+/*Informações João*/
+    .imgjoao{
+        background-image: url(/sobrenos/Assets/joao-mobile.png);
+        background-size: 100%;
+        width: 100%;
+        height: 250px;
+        border-radius: 50%;
+        left: 11%;
+        top: 115%;
+    }
+
+    #nomejoao{
+        left: 20%;
+        top: 200%;
+    }
+
+    #box3{
+        background: none;
+    }
+
+    #txt3{
+        text-align: center;
+        height: 10px;
+        max-width: 592px;
+        width: 100%;  
+        left: -17%;
+        top:220%;
+    }
+    
+    .box h4{
+        font-size: 2.0rem;
+        color: #FFFFFF;
+    }
+
+    .box p{
+        font-size: 1.6rem;
+        color: #FFFFFF;
+    }   
 }
+   
 
 @media screen and (max-width: 768px) and (min-width: 481px){
 
@@ -365,11 +498,15 @@ body{
         border-radius: 50%;
         justify-content: space-between;
         display: flex;
+        float: left;
+        margin: 0 10px 10px 0;
     }
 
-    .txt {
-        text-align: left;
-        top:15%;
+ 
+
+    .bottom{
+        width: 100%;
+        height: 240%;
     }
 
     .about-section{
@@ -377,31 +514,19 @@ body{
         top: 5%;
     }
 
-
+/*Informações Carol*/
     .imgcaroline{
         background-image: url(/sobrenos/Assets/caroline-mobile.png);
         background-size: 100%;
         width: 100%;
         height: 250px;
         border-radius: 50%;
-        left: 20%;
-        top: 112%;
+        left: 17%;
+        top: 18%;
     }
-
-    #box1{
-       width: 92.5%;
-       background: none;
-       font-size: 16px;
-
-    }
-
-    .box h4{
-        font-size: 2.0rem;
-    }
-
-    .box p{
-        font-size: 1.6rem;
-        color: #FFFFFF;
+    #nomecarol{
+        left: 21%;
+        top: 110%;
     }
 
     #txt1{
@@ -409,53 +534,84 @@ body{
         height: 10px;
         max-width: 592px;
         width: 150%;  
-        left: -10%;  
+        left: -7%;  
+        top: 130%;
     }
-    #txt2{
-        text-align: center;
-        height: 10px;
-        max-width: 592px;
-        width: 150%;  
-        left: -10%
-    }
-    #txt3{
-        text-align: center;
-        height: 10px;
-        max-width: 592px;
-        width: 150%;  
-        left: -10%
-    }
-    
 
+    #box1{
+       background: none;
+       font-size: 16px;
+    }
+/*Informações Laura*/
     .imglaura{
         background-image: url(/sobrenos/Assets/laura-mobile.png);
         background-size: 100%;
         width: 100%;
         height: 250px;
         border-radius: 50%;
-        left: 20%;
-        top:48%;
+        left: 17%;
+        top:57%;
+    }
+    #nomelaura{
+        left: 23%;
+        top: 135%;
+    }
+    #txt2{
+        text-align: center;
+        height: 10px;
+        max-width: 592px;
+        width: 150%;  
+        left: -7%;
+        top:150%;
     }
 
     #box2{ 
         background: none;
     }
-    
+/*Informações João*/
     .imgjoao{
         background-image: url(/sobrenos/Assets/joao-mobile.png);
         background-size: 100%;
         width: 100%;
         height: 250px;
         border-radius: 50%;
-        left: 20%;
-        top: 195%;
+        left: 17%;
+        top: 115%;
+    }
+
+    #nomejoao{
+        left: 25%;
+        top: 200%;
     }
 
     #box3{
         background: none;
     }
+
+    #txt3{
+        text-align: center;
+        height: 10px;
+        max-width: 592px;
+        width: 150%;  
+        left: -7%;
+        top:220%;
+    }
+    
+    .box h4{
+        font-size: 2.0rem;
+        color: #FFFFFF;
+    }
+
+    .box p{
+        font-size: 1.6rem;
+        color: #FFFFFF;
+    }
+
+    .txt #p1{
+        left: 202%;
+    }     
 }
-  
+   
 
 @media screen and (max-width: 1024px) and (min-width: 769px){
     

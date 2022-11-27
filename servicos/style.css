@@ -2,6 +2,7 @@ body{
   font-size: 16px;
   text-align: center;
   background-color: #FFFFFF; 
+  overflow-x: hidden;
 }
 .titulo{
   background-color: #E5E5E5;
@@ -453,3 +454,74 @@ body{
   background: #CA8D67;
 }
 
+/*CSS CARTAO SLIDER*/
+
+.cartao {
+  display: inline-block;
+  position: absolute;
+  margin-left: -280%;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 35px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  position: relative;
+}
+
+.wrapper i {
+  top: 50%;
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  background-color: pink;
+  transform: translateY(-50%);
+}
+
+.wrapper i:first-child {
+  left: -23px;
+  display: none;
+}
+
+
+
+.wrapper i:last-child {
+  right: -23px;
+}
+
+.wrapper .carousel {
+  white-space: nowrap;
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+  scroll-behavior: auto;
+  cursor: grab;
+}
+
+.carousel.dragging img {
+  pointer-events: none;
+}
+
+.carousel img {
+  height: 350px;
+  object-fit: cover;
+  width: 300px;
+  margin-left: 19px;
+}
+
+.carousel img:first-child {
+  margin-left: 0px;
+}
+
+
+}

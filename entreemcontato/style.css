@@ -24,7 +24,7 @@ body{
   max-width: 438px;
   height: 28px;
   left: 102px;
-  top: 167px;
+  top: 168px;
   background: #FBC9A8;
   
  
@@ -61,7 +61,7 @@ body{
 
 
 .container .content .left-side{
-  width: 100%;
+  width: 84%;
   margin-left: 8%;
   margin-right: 8%;
   height: 710px;
@@ -94,7 +94,7 @@ body{
   max-width: 10%;
   width: 100%;
   height: 25px;
-  left: 7%;
+  left: 7.5%;
   top: 6%;
   white-space: nowrap;
 }
@@ -110,7 +110,7 @@ body{
   max-width: 15%;
   width: 12.5%;
   height: 25px;
-  left: 7%;
+  left: 7.5%;
   top: 14%;
   white-space: nowrap;
 }
@@ -125,7 +125,7 @@ body{
   position: absolute;
   width: 18.6%;
   height: 72px;
-  left: 7%;
+  left: 7.5%;
   top: 22%;
   white-space: nowrap;
 }
@@ -140,7 +140,7 @@ body{
   position: absolute;
   width: 16%;
   height: 25px;
-  left: 7%;
+  left: 7.5%;
   top: 38%;
   white-space: nowrap;
 }
@@ -155,7 +155,7 @@ body{
   position: absolute;
   width: 15%;
   height: 25px;
-  left: 7%;
+  left: 7.5%;
   top: 46%;
   white-space: nowrap;
 }
@@ -407,6 +407,7 @@ body{
     left: 4%;
     top: 7.5%;
     z-index: -3;
+    top: 22.5%;
    }
   
   .topic-text{
@@ -522,14 +523,14 @@ body{
   }
 
   .square {
-    width: 45%;
+    width: 280px;
     height: 18px;
     left: 6%;
     top: 22.5%;
    }
   
   .topic-text{
-    font-size:156.25%	;
+    font-size: 156.25%	;
     line-height: 4.2rem;
   }
 
@@ -626,7 +627,7 @@ body{
   }
 
   .square {
-    width: 40%;
+    width: 30%;
     height: 18px;
     left: 6%;
     top: 23.5%;
@@ -764,7 +765,7 @@ nav ul li a {
 
 }
 
-@media(max-width:1010px) {
+@media(max-width:1030px) {
   nav ul li:nth-child(3) {
     margin-left: 170px;
   }
