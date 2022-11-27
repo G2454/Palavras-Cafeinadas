@@ -1,14 +1,23 @@
+html{
+  font-size: 62.5%;
+}
+
 body{
-  font-size: 16px;
   text-align: center;
   background-color: #FFFFFF; 
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
+
 .titulo{
   background-color: #E5E5E5;
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 557px;
-  left: 0px;
+  left: 0%;
   top: 100px;
   z-index: auto;
 }
@@ -17,7 +26,7 @@ body{
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 700;
-  font-size: 88px;
+  font-size: 550%;
   line-height: 107px;
   color: #57290B;
   text-align: center;
@@ -35,7 +44,8 @@ body{
 
 .detalhelivro1{
   position: absolute;
-  width: 382.5px;
+  max-width: 382.5px;
+  width: 26.56%;
   height: 269.27px;
   left: 0px;
   top: 289px;
@@ -44,7 +54,8 @@ body{
 
 .detalhelivro2{
   position: absolute;
-  width: 382.5px;
+  max-width: 382.5px;
+  width:26.56%;
   height: 269.27px;
   left: 1039px;
   top: 280px;
@@ -53,7 +64,7 @@ body{
 
 .livros{
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 1073px;
   background:#F5F3ED;
   top: 657px;
@@ -64,8 +75,8 @@ body{
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 56px;
+  font-size: 4.0rem;
+  line-height: 5.6rem;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #1F0C00;
@@ -73,7 +84,8 @@ body{
 
 .livraria{
   position: absolute;
-  width: 195px;
+  width:13.54%;
+  max-width: 195px;
   height: 56px;
   left: 120px;
   top: 1px;
@@ -83,7 +95,8 @@ body{
 
 .square {
   position: absolute;
-  width: 227px;
+  max-width: 227px;
+  width: 20%;
   height: 28px;
   left: 104px;
   top: 81px;
@@ -93,7 +106,8 @@ body{
 
 .livros .vendidos{
   position: absolute;
-  width: 230px;
+  max-width: 230px;
+  width:15.97%;
   height: 18px;
   left: 612px;
   top: 105px;
@@ -104,15 +118,15 @@ body{
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 18px;
+  font-size: 2.4rem;
+  line-height: 1.8rem;
   text-transform: uppercase;
   color: #8F542E;
 }
 
 .linha1{
   position: justify;
-  width: 225px;
+  width:15.625%;
   height: 0px;
   left: 616px;
   top: 159px;
@@ -123,8 +137,8 @@ body{
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 112%px;
+  font-size: 1.6rem;
+  line-height: 1.2rem;
   text-transform: capitalize;
   color: #1F0C00;
 }
@@ -133,15 +147,16 @@ body{
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
   text-transform: capitalize;
   color: #525252;
 }
 
 .livros .imglivros .livro1{
   position: absolute;
-  width: 232px;
+  max-width: 232px;
+  width: 16.11%;
   height: 343.97px;
   left: 219px;
   top: 199px;
@@ -452,4 +467,74 @@ body{
 .button input[type="button"]:hover{
   background: #CA8D67;
 }
+
+/*CSS CARTAO SLIDER*/
+
+.cartao {
+  display: inline-block;
+  position: absolute;
+  margin-left: -280%;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 35px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  position: relative;
+}
+
+.wrapper i {
+  top: 50%;
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  background-color: pink;
+  transform: translateY(-50%);
+}
+
+.wrapper i:first-child {
+  left: -23px;
+  display: none;
+}
+
+
+
+.wrapper i:last-child {
+  right: -23px;
+}
+
+.wrapper .carousel {
+  white-space: nowrap;
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+  scroll-behavior: auto;
+  cursor: grab;
+}
+
+.carousel.dragging img {
+  pointer-events: none;
+}
+
+.carousel img {
+  height: 350px;
+  object-fit: cover;
+  width: 300px;
+  margin-left: 19px;
+}
+
+.carousel img:first-child {
+  margin-left: 0px;
+}
+
 
