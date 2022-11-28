@@ -1,470 +1,336 @@
-body{
-  font-size: 16px;
-  text-align: center;
-  background-color: #FFFFFF; 
-  overflow-x: hidden;
+html {
+  font-size: 62.5%;
 }
-.titulo{
-  background-color: #E5E5E5;
-  position: absolute;
-  width: 1440px;
+
+body {
+  text-align: center;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+}
+
+.titulo {
+  position: relative;
+  background-color: #e5e5e5;
+
+  width: 100%;
   height: 557px;
-  left: 0px;
   top: 100px;
-  z-index: auto;
 }
 
 .servicos h1 {
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 700;
-  font-size: 88px;
+  font-size: 550%;
   line-height: 107px;
-  color: #57290B;
+  color: #57290b;
   text-align: center;
 }
 
-#servico{
+#servico {
   position: absolute;
-  width: 410px;
-  height: 107px;
-  left: 515px;
-  top: 226px;
+  width: 100%;
+  height: 100%;
   white-space: nowrap;
   z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.detalhelivro1{
+.detalhelivro1 {
   position: absolute;
-  width: 382.5px;
-  height: 269.27px;
-  left: 0px;
-  top: 289px;
-  z-index: 1;
+  left: 0;
+  bottom: 0;
 }
 
-.detalhelivro2{
+.detalhelivro2 {
   position: absolute;
-  width: 382.5px;
-  height: 269.27px;
-  left: 1039px;
-  top: 280px;
-  z-index: 1;
+  right: 0;
+  bottom: 0;
 }
 
-.livros{
-  position: absolute;
-  width: 1440px;
-  height: 1073px;
-  background:#F5F3ED;
-  top: 657px;
+.livros {
+  position: relative;
+  top: 100px;
+  background: #f5f3ed;
   left: -1px;
+
+  padding: 54px 120px 60px;
 }
 
-.livraria h4{
+.livros-title {
+  position: relative;
+}
+
+.livros h1 {
+  position: relative;
+  text-align: left;
+  margin: 0;
+
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 56px;
+
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #1F0C00;
-}
 
-.livraria{
-  position: absolute;
-  width: 195px;
-  height: 56px;
-  left: 120px;
-  top: 1px;
-  z-index:1;
-  white-space: nowrap;
+  color: #1F0C00;
+  z-index: 1;
 }
 
 .square {
   position: absolute;
-  width: 227px;
-  height: 28px;
-  left: 104px;
-  top: 81px;
-  background: #FBC9A8;
-  z-index: auto;
- }
-
-.livros .vendidos{
-  position: absolute;
   width: 230px;
-  height: 18px;
-  left: 612px;
-  top: 105px;
-  white-space: nowrap;
+  height: 28px;
+
+  left: -15px;
+  bottom: 0;
+  background: #fbc9a8;
+  z-index: 0;
 }
 
-.livros .vendidos h3{
+.livraria {
+  display: flex;
+}
+
+.livraria-title {
+  display: flex;
+  justify-content: center;
+}
+
+.livros h2 {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 18px;
+  line-height: 28px;
+
   text-transform: uppercase;
+
   color: #8F542E;
+  border-bottom: 2px solid #B2784A;
 }
 
-.linha1{
-  position: justify;
-  width: 225px;
-  height: 0px;
-  left: 616px;
-  top: 159px;
-  border: 2px solid #B2784A;
+.livraria {
+  display: flex;
+  flex-direction: column;
 }
 
-.livros .imglivros h2{
+.livraria-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.livro {
+  text-align: left;
+}
+
+.livro h3 {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 112%px;
+  line-height: 18px;
+
   text-transform: capitalize;
+
   color: #1F0C00;
+  margin: 0;
 }
 
-.livros .imglivros p{
+.livro span {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+
   text-transform: capitalize;
+
   color: #525252;
+  display: flex;
 }
 
-.livros .imglivros .livro1{
-  position: absolute;
-  width: 232px;
-  height: 343.97px;
-  left: 219px;
-  top: 199px;
-  border-radius: 8px;
+.livro button {
+  display: none;
+  margin-left: auto;
+
+  background: #8F542E;
+  border-radius: 4px;
+  height: 22px;
+  border: 0;
+
+  color: #F0F0F0;
 }
 
-.livros .imglivros .livro1 h2{
-  position: justify;
-  width: 151px;
-  height: 18px;
-  left: 222px;
-  top: 548px;
-  z-index: 1;
-}
-
-.livros .imglivros .livro1 p{
-  position: justify;
-  width: 88px;
-  height: 19.17px;
-  left: 222px;
-  top: 570px;
-}
- 
-.livros .imglivros .livro2{
-  position: absolute;
-  width: 230px;
-  height: 349.69px;
-  left: 606px;
-  top: 199px;
-  border-radius: 8px;
-}
-
-.livros .imglivros .livro2 h2{
-  position: justify;
-  width: 96px;
-  height: 18px;
-  left: 606px;
-  top: 548px;
-}
-
-.livros .imglivros .livro2 p{
-  position: justify;
-  width: 126px;
-  height: 16.5px;
-  left: 607px;
-  top: 570px;
-}
-
-.livros .imglivros .livro3{
-  position: absolute;
-  width: 240px;
-  height: 344.59px;
-  left: 988px;
-  top: 199px;
-  border-radius: 8px;
-}
-
-.livros .imglivros .livro3 h2{
-  position: justify;
-  width: 135px;
-  height: 18px;
-  left: 990px;
-  top: 548px;
-  white-space: nowrap;
-}
-
-.livros .imglivros .livro3 p{
-  position: justify;
-  width: 126px;
-  height: 16.5px;
-  left: 607px;
-  top: 570px;
-}
-
-.livros .imglivros .livro4{
-  position: absolute;
-  width: 239px;
-  height: 346.06px;
-  left: 412px;
-  top: 622px;
-  border-radius: 8px;
-}
-
-.livros .imglivros .livro4 h2{
-  position: justify;
-  width: 37px;
-  height: 18px;
-  left: 417px;
-  top: 973px;
-}
-
-.livros .imglivros .livro4 p{
-  position: justify;
-  width: 94px;
-  height: 16.5px;
-  left: 418px;
-  top: 995.26px;
-}
-
-.livros .imglivros .livro5{
-  position: absolute;
-  width: 240px;
-  height: 356.44px;
-  left: 790px;
-  top: 622px;
-  border-radius: 8px;
-}
-
-.livros .imglivros .livro5 h2{
-  position: justify;
-  width: 163px;
-  height: 18px;
-  left: 797px;
-  top: 973px;
-}
-
-.livros .imglivros .livro5 p{
-  position: justify;
-  width: 88px;
-  height: 19.17px;
-  left: 798px;
-  top: 995.26px;
-  right: 555px;
-}
-
-.cafeteria{
-  position: absolute;
-  width: 1440px;
+.cafeteria {
+  position: relative;
+  top: 100px;
+  width: 100%;
   height: 624px;
   left: 0px;
-  top: 1730px;
-  background: #80451F;
+  background: #80451f;
+}
+
+.cartao {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  padding: 0 35px;
+
+  left: 50%;
+  transform: translateX(-45%);
 }
 
 .about-section {
   position: absolute;
-  width: 245px;
+  width: 100%;
   height: 4.8px;
-  left: 598px;
   top: 52px;
-  z-index:1;
+  z-index: 1;
 }
 
 .about-section h2 {
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-size: 40px;
-  line-height: 48px;    
+  line-height: 48px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #F5F3ED;
-  z-index:1;
+  color: #f5f3ed;
+  z-index: 1;
 }
 
-.boxmensagem{
-  position: absolute;
-  width: 1441px;
-  height: 886px;
-  left: -3px;
-  top: 2354px;
-  background: #F5F3ED;
-}
-.boxmensagem .livraria{
-  position: absolute;
-  width: 452px;
-  height: 56px;
-  left: 113px;
-  top: 5px;
+.box {
+  position: relative;
+  top: 100px;
+  background-color: #F5F3ED;
+
+  padding: 56px 120px 32px;
 }
 
-.boxmensagem .square{
-  position: center;
-  width: 484px;
-  height: 28px;
-  left: 100px;
-  top: 83px;
-  background: #FBC9A8;
+.box-title {
+  position: relative;
+  display: flex;
 }
 
-.boxmensagem .imgmesa{
-  position: absolute;
-  width: 485px;
-  height: 742.35px;
-  left: 834px;
-  top: 111px;
-  border-radius: 8px;
-}
-
-.boxmensagem p{
-  font-family: 'Open Sans';
+.box h1 {
+  font-family: 'Cormorant Garamond';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 56px;
+
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  text-align: left;
+
   color: #1F0C00;
-}
+  margin: 0;
 
-.boxmensagem textarea{ 
-  position: absolute;
-  width: 587px;
-  height: 220px;
-  left: 121px;
-  top: 449px;
-  background: #F5F5F5;
-  border: 1px solid #8F542E;
-  border-radius: 8px;
-}
-.boxmensagem label{
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #1F0C00;
-}
-
-.boxmensagem .input-boxnome label{
-  position: absolute;
-  width: 74px;
-  height: 30px;
-  left: 121px;
-  top: 143px;
-}
-
-.boxmensagem .input-boxemail label{
-  position: absolute;
-  width: 76px;
-  height: 30px;
-  left: 122px;
-  top: 279px;
   white-space: nowrap;
+  position: relative;
+  z-index: 1;
 }
 
-.boxmensagem .input-box-message-box label{
+.square2 {
+  width: 480px;
   position: absolute;
-  width: 134px;
-  height: 30px;
-  left: 122px;
-  top: 415px;
+  top: 28px;
+
+  height: 28px;
+  background-color: #FBC9A8;
+  z-index: 0;
+  left: -14px;
 }
 
-.boxmensagem .input-boxemail textarea{
-  position: absolute;
-  width: 587px;
-  height: 70px;
-  left: 121px;
-  top: 313px;
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+  width: 100%;
+}
+
+input, textarea {
+  width: 100%;
+  max-width: 588px;
+  margin-bottom: 32px;
+
   background: #F5F5F5;
   border: 1px solid #8F542E;
   border-radius: 8px;
-}
-
-.boxmensagem .input-boxnome textarea{
-  position: absolute;
-  width: 588px;
   height: 70px;
-  left: 120px;
-  top: 177px;
-  background: #F5F5F5;
-  border: 1px solid #8F542E;
-  border-radius: 8px;
 }
 
-.boxmensagem .button [type="button"]{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 32px;
-  gap: 20px;
-  position: absolute;
-  width: 282px;
-  height: 57px;
-  left: 122px;
-  top: 701px;
-  background: #8F542E;
-  border-radius: 8px;
+input:focus, textarea:focus {
+  outline: none;
 }
 
-.boxmensagem .button input[type="button"]{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 32px;
-  gap: 20px;
-  position: absolute;
+label {
+  margin-bottom: 4px;
+}
+
+input, textarea, label {
+  text-align: left;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #1F0C00;
+}
+
+textarea {
+  height: 220px;
+  resize: none;
+}
+
+form button {
   width: 282px;
   height: 57px;
-  left: 122px;
-  top: 701px;
-  background: #8F542E;
-  border-radius: 8px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 33px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase; 
-  color: #F0F0F0;;
-}
 
-.button input[type="button"]:hover{
-  background: #CA8D67;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #F0F0F0;
+  background: #8F542E;
+  border-radius: 8px;
+
+  border: 0;
+  cursor: pointer;
 }
 
 /*CSS CARTAO SLIDER*/
-
-.cartao {
-  display: inline-block;
-  position: absolute;
-  margin-left: -280%;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 0 35px;
-}
-
 .wrapper {
   max-width: 1200px;
   position: relative;
@@ -488,8 +354,6 @@ body{
   left: -23px;
   display: none;
 }
-
-
 
 .wrapper i:last-child {
   right: -23px;
@@ -523,5 +387,29 @@ body{
   margin-left: 0px;
 }
 
+@media screen and (max-width: 900px) {
+  .box {
+    padding: 56px 24px 32px;
+  }
 
+  input, textarea {
+    max-width: inherit;
+    width: 100%;
+  }
+
+  .detalhelivro1, .detalhelivro2 {
+    display: none;
+  }
+
+  .livro button {
+    display: block;
+  }
+
+  .livro:nth-child(3) {
+    display: none;
+  }
+
+  .form-container img {
+    display: none;
+  }
 }

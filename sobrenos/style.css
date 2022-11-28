@@ -1,620 +1,313 @@
-
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-body{
-    font-size: 1.6rem;
-    text-align: center;
-    background-color: #FFFFFF;
+body {
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: #ffffff;
+
+  margin: 0;
 }
 /* Banner*/
-.imagemfundo{
-    position: absolute;
-    background-image: url(/sobrenos/Assets/sobrenos.png);
-    width: 100%;
-    height: 559px;
-    left: 0px;
-    top: 100px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+.imagemfundo {
+  position: relative;
+  background: url(/sobrenos/Assets/sobrenos.png) no-repeat center/cover;
+
+  width: 100%;
+  height: 559px;
+
+  margin-top: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.sobrenos h1 {
-    font-family: 'Cormorant Garamond';
-    text-align: center;
-    font-style: normal;
-    font-weight: 43.7rem;
-    font-size: 5.5vw;
-    line-height: 10.7rem;
-    color: #ebdacc;
-
+.imagemfundo h1 {
+  font-family: 'Cormorant Garamond';
+  text-align: center;
+  font-style: normal;
+  font-weight: 43.7rem;
+  font-size: 5.5vw;
+  line-height: 10.7rem;
+  color: #ebdacc;
 }
-.sobrenos{
-    position: absolute;
-    width: 32.84%;
-    height: 107px;
-    padding-left: 33.54%;
-    padding-top: 326px;
-    z-index:1;
-    white-space: nowrap;
+
+.corpo {
+    margin: 0 120px 60px;
+    position: relative;
 }
 
 /* Titulo Corpo*/
-.corpo h4{
-    font-family: 'Cormorant Garamond';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 4.0rem;
-    line-height: 5.6rem;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #1F0C00;
-}
-.quemsomos{
-    position: absolute;
-    width: 18%;
-    height: 56px;
-    left: 120px;
-    top: 648px;
-    z-index:1;
-    white-space: nowrap;
+.corpo h4 {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.6rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #1f0c00;
+
+  text-align: left;
+  margin: 52px 0 30px;
+  display: flex;
 }
 
 /* Texto do Corpo*/
-.txt{
-    position: absolute;
-    width: 42%;
-    height: 504px;
-    padding-left: 12.0rem;
-    padding-top: 80.7rem;
-    text-align: justify;
+.txt {
+  max-width: 50%;
+
+  text-align: justify;
+  margin-right: 10%;
 }
-.corpo .txt p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400px;
-    line-height: 28px;
-    color:#1F0C00;
+
+.txt-resp {
+    display: none;
+}
+
+.corpo .txt p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400px;
+  line-height: 28px;
+  color: #1f0c00;
+
+  margin: 0;
 }
 
 /* Imagem do Corpo*/
-.imagemcafe{
-    position: absolute;
-    background-image: url(/sobrenos/Assets/cafe-corpo.png);
-    border-radius: 50%;
-    width: 36%;
-    height: 485px;
-    left: 58%;
-    top: 767px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+.imagemcafe {
+  position: absolute;
+  border-radius: 50%;
+  width: 36%;
+  height: 485px;
+  left: 58%;
+  top: 767px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
-.corpo img{
+
+.container {
+    display: flex;
+}
+
+.corpo-img {
+    width: 100%;
+}
+
+.container img {
     border-radius: 50%;
+
+    width: 100%;
+    height: 100%;
 }
 
 .square {
-    position: absolute;
-    max-width: 301px;
-    width: 25%;
-    height: 28px;
-    left: 104px;
-    top: 728px;
-    background: #FBC9A8;
-   }
+  width: 300px;
+  height: 24px;
 
-   /* Caixa de Apresentação*/
+  position: absolute;
+  background: #fbc9a8;
 
-.about-section {
-    position: absolute;
-    max-width: 269px;
-    width: 17%;
-    height: 4.8px;
-    padding-left: 598px;
-    padding-top: 1370px;
-    z-index:1;
-    white-space: nowrap;
-  }
-  
-.about-section h2 {
+  z-index: -1;
+  top: 28px;
+  left: -15px;
+}
+
+/* Caixa de Apresentação*/
+
+.about {
+    background: #80451F;
+}
+
+.about-container {
+    padding: 56px 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container h2 {
     font-family: 'Cormorant Garamond';
-    font-style: normal;
-    font-size: 250%;
-    line-height: 4.8rem;    
+    font-weight: 700;
+    font-size: 40px;
+
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #F5F3ED;
-    z-index:1;
-  }
+    position: relative;
 
-.box {
+    color: #F5F3ED;
+}
+
+.about-container h2::after {
+    content: '';
+    position: absolute;
+
+    bottom: -4px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 80%;
+
+    height: 3px;
+    border-radius: 3px;
+    background-color: #B2784A;
+}
+
+.about-testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 32px;
+
+    width: 100%;
+}
+
+.testimonial {
     background-color: #F5F3ED;
+
+    max-width: 996px;
+
+    display: flex;
+    padding: 18px 39px;
+
     border-radius: 8px;
-    z-index:auto;
-  }  
-.box h4{
+    text-align: left;
+}
+
+.testimonial div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-left: 20px;
+}
+
+.img-container {
+    justify-content: center;
+}
+
+.testimonial img {
+    border-radius: 50%;
+}
+
+.testimonial h3 {
     font-family: 'Open Sans';
     font-style: normal;
-    font-size: 2.4rem;
+    font-weight: 700;
+    font-size: 24px;
     line-height: 30px;
+    /* identical to box height, or 125% */
+
     letter-spacing: 0.02em;
+
     color: #1F0C00;
-    position: absolute;
-    z-index:1;
-    border-style: none;
-    }
-    
-  
-/*Informações Carol*/
-
-#box1{
-    position: absolute;
-    max-width: 996px;
-    width: 100%;
-    height: 266px;
-    top: 1497px;
-    z-index:1;
-    margin-left: 15.5%;
-    margin-right: 15.5%;
+    margin: 30px 0 0;
+    border-bottom: 2px solid #B2784A;
 }
 
-#nomecarol{
-    position: absolute;
-    width: 209px;
-    height: 30px;
-    left: 30.92%;
-    top: 4.71%;
-    z-index: 1;
-    background: none;
-}
-  
-.imgcaroline{
-    background-image: url(/sobrenos/Assets/caroline.png);
-    position: absolute;
-    max-width: 249px;
-    width: 100%;
-    height: 231px;
-    left: 3.90%;
-    top: 6.39%;
-    z-index:1;
-    clip-path: circle(50% at 50% 50%);
-}
-
-#txt1{
-    position: absolute;
-    max-width: 575px;
-    width: 60%;
-    height: 112px;
-    left: 30.92%;;
-    top: 34%;
-    text-align: justify;
-    z-index:1;
-    background: none;
-}
-
-
-/*Informações Laura*/
-  
-#box2{
-    position: absolute;
-    max-width: 996px;
-    width: 100%;
-    height: 301px;
-    margin-left: 15.5%;
-    margin-right: 15.5%;
-    top: 1795px;
-    z-index:1;
-}
-
-
-#nomelaura{
-    position: absolute;
-    width: 177px;
-    height: 30px;
-    left: 30.92%;
-    top: 4.71%;
-    z-index: auto;
-    background: none;
-}
-
-.imglaura{
-    background-image: url(/sobrenos/Assets/laura.png);
-    position: absolute;
-    max-width: 243px;
-    width: 100%;
-    height: 231px;
-    left: 3.90%;
-    top: 11.29%;
-    z-index:1;
-    clip-path: circle(50% at 50% 50%);
-}
-
-#txt2{
-    position: absolute;
-    max-width: 575px;
-    width: 60%;
-    height: 168px;
-    left: 30.92%;;
-    top: 28%;
-    text-align: justify;
-    z-index:1;
-    background: none;
-}
-
-/*Informações João*/
-#box3{
-    position: absolute;
-    max-width: 996px;
-    width: 100%;
-    height: 273px;
-    margin-left: 15.5%;
-    margin-right: 15.5%;
-    top: 2128px;
-    z-index:1;
-}
-
-#nomejoao{
-    position: absolute;
-    width: 159px;
-    height: 30px;
-    left: 30.92%;
-    top: 4.71%;
-    z-index: 1;
-    background: none;
-}
-
-.imgjoao{
-    background-image: url(/sobrenos/Assets/joao.png);
-    position: absolute;
-    max-width: 240px;
-    width: 100%;
-    height: 231px;
-    left: 3.90%;
-    top: 6.39%;
-    z-index:10;
-    clip-path: circle(50% at 50% 50%);
-}
-
-#txt3{
-    position: absolute;
-    max-width: 575px;
-    width: 60%;
-    height: 140px;
-    left: 30.92%;;
-    top: 31%;
-    text-align: justify;
-    z-index:1;
-    background: none;
-}
-
-.bottom{
-    position: absolute;
-    width: 100%;
-    height: 1109px;
-    left: 0px;
-    top: 1350px;
-    background-color: #8F542E;
-    z-index:auto;
-}
-
-.box p{
+.testimonial p {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 2.8rem;
+    font-size: 18px;
+    line-height: 28px;
+
     color: #1F0C00;
-    border-style: none;
-    z-index:auto;
+    max-width: 575px;
 }
 
-@media screen and (max-width: 480px){
-
-    .imagemfundo{
-        position: absolute;
-        background-image: url(/sobrenos/Assets/sobrenos-mobile.png);
-        height: 250px;
-    }
-    .sobrenos h1 {
-        font-size: 5.7rem;
-    }
-
-    .sobrenos{
-        position: absolute;
-        left: -20%;
-        top: -30%;
-        align-items: center;
-        align-content: center;
-    }
-    .quemsomos{
-        top: 50%;
-        left: 5.625%;
-    }
-
-    .corpo h4{
-        font-size: 140.625%;
-    }
-    
-    .square{
-        left: 3.75%;
-        top: 59%;
-        width: 35%;
-    }
-    .imagemcafe{
-        background-image: url(/sobrenos/Assets/cafe-corpo-mobile.png);
-        background-size: 100%;
-        left: 3.75%;
-        top:67%;
-        width: 44%;
-        height: 200px;
-        border-radius: 50%;
-        float: left;
-        margin: 10 10px 10px 0;
-    }
-
-
-    .bottom{
-        width: 100%;
-        height: 250%;
-    }
-
-    .about-section{
-        left: -100%;
-        top: 2.5%;
-    }
-
-    .about-section h2 {
-        font-size: 140.625;
-    }
-
-/*Informações Carol*/
-    .imgcaroline{
-        background-image: url(/sobrenos/Assets/caroline-mobile.png);
-        background-size: 100%;
-        width: 100%;
-        height: 250px;
-        border-radius: 50%;
-        left: 11%;
-        top: 18%;
-    }
-    #nomecarol{
-        left: 20%;
-        top: 110%;
-    }
-
-    #txt1{
-        text-align: center;
-        height: 10px;
-        max-width: 592px;
-        width: 100%;  
-        left: -17%;
-        top: 130%;
-    }
-
-    #box1{
-       background: none;
-       font-size: 16px;
-    }
-/*Informações Laura*/
-    .imglaura{
-        background-image: url(/sobrenos/Assets/laura-mobile.png);
-        background-size: 100%;
-        width: 100%;
-        height: 250px;
-        border-radius: 50%;
-        left: 11%;
-        top:57%;
-    }
-    #nomelaura{
-        left: 20%;
-        top: 135%;
-    }
-    #txt2{
-        text-align: center;
-        word-wrap:break-word;
-        height: 10px;
-        max-width: 592px;
-        width: 100%;  
-        left: -17%;
-        top:150%;
-    }
-
-    #box2{ 
-        background: none;
-    }
-/*Informações João*/
-    .imgjoao{
-        background-image: url(/sobrenos/Assets/joao-mobile.png);
-        background-size: 100%;
-        width: 100%;
-        height: 250px;
-        border-radius: 50%;
-        left: 11%;
-        top: 115%;
-    }
-
-    #nomejoao{
-        left: 20%;
-        top: 200%;
-    }
-
-    #box3{
-        background: none;
-    }
-
-    #txt3{
-        text-align: center;
-        height: 10px;
-        max-width: 592px;
-        width: 100%;  
-        left: -17%;
-        top:220%;
-    }
-    
-    .box h4{
-        font-size: 2.0rem;
-        color: #FFFFFF;
-    }
-
-    .box p{
-        font-size: 1.6rem;
-        color: #FFFFFF;
-    }   
+.about-section {
+  position: absolute;
+  max-width: 269px;
+  width: 17%;
+  height: 4.8px;
+  padding-left: 598px;
+  padding-top: 1370px;
+  z-index: 1;
+  white-space: nowrap;
 }
-   
 
-@media screen and (max-width: 768px) and (min-width: 481px){
+.about-section h2 {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-size: 250%;
+  line-height: 4.8rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #f5f3ed;
+  z-index: 1;
+}
 
-    .imagemfundo{
-        position: absolute;
-        background-image: url(/sobrenos/Assets/sobrenos-mobile.png);
-        height: 344px;
+@media screen and (max-width: 1200px) {
+    .corpo {
+        margin: 0 24px 60px;
+        position: relative;
     }
-    .sobrenos{
-        position: absolute;
-        padding-left: 18.125%;
-        font-size: 10vw;
-        top: -25%;
-        align-items: center;
-        align-content: center;
+
+    .about-container {
+    padding: 56px 24px;
     }
-    .quemsomos{
-        top: 64%;
-        left: 5.625%;
-        font-size: 212.5%;
+}
+
+@media screen and (max-width: 900px) {
+    .imagemfundo h1 {
+        font-size: 48px;
     }
-    .square{
-        left: 3.75%;
-        top: 77%;
-        width: 100%;
+
+    .txt {
+        max-width: 100%;
+        margin-right: 0;
     }
-    .imagemcafe{
-        background-size: 100%;
-        left: 3.75%;
-        top:84.17%;
-        width: 50%;
-        height: 350px;
-        border-radius: 50%;
-        justify-content: space-between;
+
+    .txt-desktop, .corpo-img {
+        display: none;
+    }
+
+    .txt-resp {
         display: flex;
-        float: left;
-        margin: 0 10px 10px 0;
+        gap: 30px;
+
+        margin-bottom: 32px;
     }
 
- 
-
-    .bottom{
-        width: 100%;
-        height: 240%;
+    .txt-resp div {
+        min-width: 40%;
     }
 
-    .about-section{
-        left: -45%;
-        top: 5%;
+    .txt-resp img {
+        height: auto;
     }
 
-/*Informações Carol*/
-    .imgcaroline{
-        background-image: url(/sobrenos/Assets/caroline-mobile.png);
-        background-size: 100%;
-        width: 100%;
-        height: 250px;
-        border-radius: 50%;
-        left: 17%;
-        top: 18%;
-    }
-    #nomecarol{
-        left: 21%;
-        top: 110%;
-    }
-
-    #txt1{
+    .testimonial {
+        flex-direction: column;
         text-align: center;
-        height: 10px;
-        max-width: 592px;
-        width: 150%;  
-        left: -7%;  
-        top: 130%;
+
+        background-color: transparent;
     }
 
-    #box1{
-       background: none;
-       font-size: 16px;
-    }
-/*Informações Laura*/
-    .imglaura{
-        background-image: url(/sobrenos/Assets/laura-mobile.png);
-        background-size: 100%;
-        width: 100%;
-        height: 250px;
-        border-radius: 50%;
-        left: 17%;
-        top:57%;
-    }
-    #nomelaura{
-        left: 23%;
-        top: 135%;
-    }
-    #txt2{
-        text-align: center;
-        height: 10px;
-        max-width: 592px;
-        width: 150%;  
-        left: -7%;
-        top:150%;
+    .testimonial div {
+        align-items: center;
+        margin-left: 0;
     }
 
-    #box2{ 
-        background: none;
-    }
-/*Informações João*/
-    .imgjoao{
-        background-image: url(/sobrenos/Assets/joao-mobile.png);
-        background-size: 100%;
-        width: 100%;
-        height: 250px;
-        border-radius: 50%;
-        left: 17%;
-        top: 115%;
+    .testimonial h3 {
+        color: #fff;
     }
 
-    #nomejoao{
-        left: 25%;
-        top: 200%;
+    .testimonial p {
+        color: #fff;
     }
-
-    #box3{
-        background: none;
-    }
-
-    #txt3{
-        text-align: center;
-        height: 10px;
-        max-width: 592px;
-        width: 150%;  
-        left: -7%;
-        top:220%;
-    }
-    
-    .box h4{
-        font-size: 2.0rem;
-        color: #FFFFFF;
-    }
-
-    .box p{
-        font-size: 1.6rem;
-        color: #FFFFFF;
-    }
-
-    .txt #p1{
-        left: 202%;
-    }     
-}
-   
-
-@media screen and (max-width: 1024px) and (min-width: 769px){
-    
 }
 
-
+@media screen and (max-width: 600px) {
+    .txt-resp {
+        flex-direction: column;
+    }
+}
